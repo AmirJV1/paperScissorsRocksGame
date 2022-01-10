@@ -1,0 +1,28 @@
+.App {
+  background-color: none;
+}
+
+.startbtn {
+  width: 170px;
+  height: 80px;
+  transition: color 0.5s;
+}
+
+.startbtn:hover {
+  color: #3cff00;
+  opacity: 0.8;
+  -webkit-animation: grow 1s ease normal;
+          animation: grow 1s ease normal;
+}
+
+@-webkit-keyframes grow {
+  50% {
+    transform: scale(1.3);
+  }
+}
+
+@keyframes grow {
+  50% {
+    transform: scale(1.3);
+  }
+}/*# sourceMappingURL=App.css.map */

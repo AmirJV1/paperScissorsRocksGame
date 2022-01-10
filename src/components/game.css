@@ -1,0 +1,71 @@
+.gameCont {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  min-width: 90vw;
+  min-height: 90vh;
+  background-color: rgba(92, 20, 102, 0.335);
+}
+
+.btnOptions {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.menu p {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgDisplay {
+  width: 250px;
+  height: 250px;
+}
+
+.ansCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.ansCont p, .ansCont h1, .ansCont h2 {
+  text-align: center;
+}
+
+.previewChoice {
+  display: flex;
+  flex-direction: column;
+}
+
+.previewChoice i {
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .btnOptions {
+    flex-direction: row;
+    width: 50vw;
+    max-height: 10vh;
+  }
+
+  .gameCont {
+    min-height: 30vh;
+  }
+
+  .ansCont {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=game.css.map */

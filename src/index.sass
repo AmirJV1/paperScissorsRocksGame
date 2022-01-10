@@ -1,0 +1,36 @@
+$bkgColor: #005763
+$btn1Col: #010050
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap')
+
+*
+    font-size: 20px
+    color: #fff
+    font-family: 'Rubik', sans-serif
+
+*::selection
+    background-color: #f708ff
+    color: #000
+button,input
+    outline: none
+    border: none
+button
+    background-color: $btn1Col
+    width: 130px
+    height: 50px
+    border-radius: 12px
+    border: 2px solid $btn1Col
+    font-weight: 700
+button:hover
+    cursor: pointer
+
+html
+    padding: 10px
+    width: 98vw
+    height: 90vh
+    margin: 40px 0 0 0
+    background-color: $bkgColor
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-content: center
+    align-items: center
