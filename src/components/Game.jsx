@@ -16,6 +16,9 @@ const Game = () => {
 		'Nevermind your Umi are not so good',
 		'Good choice!',
 		'Nice Umi',
+		'Umi are looking awesome!',
+		'you may win with Umi',
+		'I need more cool phrases',
 		'I would not choose that!'
 	];
 	const [counter, setCounter] = useState(4);
@@ -68,15 +71,23 @@ const Game = () => {
 					{counter === 0 && (
 						<div className="menu">
 							{displayWeapon !== '' && (
-								<img className="imgDisplay" src={images[displayWeapon]} alt="" />
+								<img
+									className="imgDisplay"
+									src={images[displayWeapon]}
+									alt={displayWeapon}
+								/>
 							)}
 							{!displayWeapon ? (
 								<div>
-                                    <p>Choose your weapon!</p>
-                                    <img style={{width:"200px",height:"200px"}} src="./thinking.png" alt="thinking emoji" />
-                                </div>
+									<p>Choose your weapon!</p>
+									<img
+										style={{ width: '200px', height: '200px' }}
+										src="./thinking.png"
+										alt="thinking emoji"
+									/>
+								</div>
 							) : (
-								<div className='previewChoice'>
+								<div className="previewChoice">
 									<p>{frases[randNum(frases)].replace('Umi', `${displayWeapon}`)}</p>
 									<i>(click to confirm your choice)</i>
 								</div>
@@ -115,9 +126,17 @@ const Game = () => {
 					<div className="ansCont">
 						<h2>&#160; The enemy: &#160;</h2>
 						<h1>{enemyWeapon}</h1>
-						<img className="imgDisplay" src={images[enemyWeapon]} alt="" />
+						<img
+							className="imgDisplay"
+							src={images[enemyWeapon]}
+							alt={'your enemy has choosen ' + enemyWeapon}
+						/>
 						<h1> &#160; VS &#160; </h1>
-						<img className="imgDisplay" src={images[`${userWeapon}`]} alt="" />
+						<img
+							className="imgDisplay"
+							src={images[`${userWeapon}`]}
+							alt={'you have choosen ' + userWeapon}
+						/>
 						<h2>&#160; You: &#160;</h2>
 						<h1>{userWeapon}</h1>
 					</div>
