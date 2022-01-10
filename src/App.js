@@ -16,8 +16,18 @@ function App() {
 						START!
 					</button>
 					<p>
-						Special thanks to <a href="https://www.flaticon.es/">Flaticon</a> and{' '}
-						<a href="https://www.pinpng.com/download/bhmJmw_png-jojothinking-thinking-emoji-meme-jojo-transparent-png/">
+						Special thanks to{' '}
+						<a
+							style={{ color: 'blue', textAlign: 'center' }}
+							href="https://www.flaticon.es/"
+						>
+							Flaticon
+						</a>{' '}
+						and{' '}
+						<a
+							style={{ color: 'blue', textAlign: 'center' }}
+							href="https://www.pinpng.com/download/bhmJmw_png-jojothinking-thinking-emoji-meme-jojo-transparent-png/"
+						>
 							Pping
 						</a>
 					</p>
