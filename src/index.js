@@ -6,7 +6,7 @@ import App from './App';
 ReactDOM.render(
 	<React.StrictMode>
 		<App />
-		<footer style={{ position: 'absolute', top: '0', left: '0', margin: '20px' }}>
+		<footer style={{ position: 'absolute', top: '0', left: '0', margin: '0 0 20px 0' }}>
 			Made by{' '}
 			<a
 				href="https://www.linkedin.com/in/amirvelasquez1/"
