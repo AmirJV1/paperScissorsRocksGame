@@ -33,7 +33,6 @@ const Game = () => {
 	}, [counter]);
 
 	const weaponChosen = (weapon) => {
-		console.log(weapon);
 		setUserWeapon(weapon);
 		setEnemyWeapon(enemyWeapons[randNum(enemyWeapons)]);
 	};
