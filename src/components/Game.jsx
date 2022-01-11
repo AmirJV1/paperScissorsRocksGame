@@ -52,14 +52,14 @@ const Game = () => {
 			(userWeapon === 'Scissors') & (enemyWeapon === 'Papers') ||
 			(userWeapon === 'Rocks') & (enemyWeapon === 'Scissors')
 		) {
-			return <h2 style={{ textAlign: 'center' }}>You win!</h2>;
+			return <h2 style={{ textAlign: 'center' }}>You won!</h2>;
 		}
 		if (
 			(enemyWeapon === 'Papers') & (userWeapon === 'Rocks') ||
 			(enemyWeapon === 'Scissors') & (userWeapon === 'Papers') ||
 			(enemyWeapon === 'Rocks') & (userWeapon === 'Scissors')
 		) {
-			return <h2 style={{ textAlign: 'center' }}>You loose!</h2>;
+			return <h2 style={{ textAlign: 'center' }}>You lost!</h2>;
 		}
 	};
 	return (
