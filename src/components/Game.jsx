@@ -123,7 +123,7 @@ const Game = () => {
 			{userWeapon !== '' && enemyWeapon !== '' ? (
 				<>
 					<div className="ansCont">
-						<h2>&#160; The enemy: &#160;</h2>
+						<h2>&#160; Your enemy: &#160;</h2>
 						<h1>{enemyWeapon}</h1>
 						<img
 							className="imgDisplay"
