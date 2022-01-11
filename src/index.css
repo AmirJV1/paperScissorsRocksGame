@@ -44,4 +44,12 @@ html {
   justify-content: center;
   align-content: center;
   align-items: center;
+}
+
+footer a:hover {
+  transform: scale(1.1);
+}
+
+.thanks {
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */

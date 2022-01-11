@@ -15,17 +15,17 @@ function App() {
 					>
 						START!
 					</button>
-					<p>
+					<p className='thanks'>
 						Special thanks to{' '}
 						<a
-							style={{ color: 'blue', textAlign: 'center' }}
+							style={{ color: 'rgb(154,133,232)', textAlign: 'center' }}
 							href="https://www.flaticon.es/"
 						>
 							Flaticon
 						</a>{' '}
 						and{' '}
 						<a
-							style={{ color: 'blue', textAlign: 'center' }}
+							style={{ color: 'rgb(154,133,232)', textAlign: 'center' }}
 							href="https://www.pinpng.com/download/bhmJmw_png-jojothinking-thinking-emoji-meme-jojo-transparent-png/"
 						>
 							Pping

@@ -1,5 +1,9 @@
 .App {
-  background-color: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .startbtn {
