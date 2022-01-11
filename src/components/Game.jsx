@@ -38,7 +38,7 @@ const Game = () => {
 		setEnemyWeapon(enemyWeapons[randNum(enemyWeapons)]);
 	};
 	const reset = () => {
-		setCounter(4);
+		setCounter(2);
 		setUserWeapon('');
 		setEnemyWeapon('');
 		setDisplayWeapon('');
