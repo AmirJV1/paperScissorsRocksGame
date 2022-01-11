@@ -22,7 +22,7 @@ const Game = () => {
 		'I would not choose that!',
 		'cool now go and win with that Umi'
 	];
-	const [counter, setCounter] = useState(3);
+	const [counter, setCounter] = useState(2);
 	const [userWeapon, setUserWeapon] = useState('');
 	const [enemyWeapon, setEnemyWeapon] = useState('');
 
