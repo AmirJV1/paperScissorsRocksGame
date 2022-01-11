@@ -11,7 +11,7 @@ const Game = () => {
 		return Math.floor(Math.random() * list.length);
 	};
 	const frases = [
-		'Some Umi they are a good choice!',
+		'Some Umi, they are a good choice!',
 		'That Umi will win!',
 		'Nevermind your Umi are not so good',
 		'Good choice!',
@@ -19,7 +19,8 @@ const Game = () => {
 		'Umi are looking awesome!',
 		'you may win with Umi',
 		'I need more cool phrases',
-		'I would not choose that!'
+		'I would not choose that!',
+		'cool now go and win with that Umi'
 	];
 	const [counter, setCounter] = useState(4);
 	const [userWeapon, setUserWeapon] = useState('');
