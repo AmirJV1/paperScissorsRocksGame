@@ -15,9 +15,11 @@ function App() {
 					>
 						START!
 					</button>
-					<p className='thanks'>
+					<p className="thanks">
 						Special thanks to{' '}
 						<a
+							target="_blank"
+							rel="noreferrer"
 							style={{ color: 'rgb(154,133,232)', textAlign: 'center' }}
 							href="https://www.flaticon.es/"
 						>
@@ -25,6 +27,8 @@ function App() {
 						</a>{' '}
 						and{' '}
 						<a
+							target="_blank"
+							rel="noreferrer"
 							style={{ color: 'rgb(154,133,232)', textAlign: 'center' }}
 							href="https://www.pinpng.com/download/bhmJmw_png-jojothinking-thinking-emoji-meme-jojo-transparent-png/"
 						>
